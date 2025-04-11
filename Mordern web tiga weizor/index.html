@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiga Weizor | Web Developer & Digital Growth Specialist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">TW</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Results</a></li>
+                <li><a href="#contact" class="cta-button">Get Started</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Tiga Weizor</h1>
+                <h2 class="hero-subtitle">Web Development + Digital Growth = <span class="highlight">Explosive Results</span></h2>
+                <p class="hero-text">I build high-performance websites and applications while strategically boosting your social media presence for maximum engagement and conversions.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn-primary">See My Work</a>
+                    <a href="#contact" class="btn-secondary">Free Consultation</a>
+                </div>
+                <div class="social-proof">
+                    <div class="proof-item">
+                        <i class="fas fa-star"></i>
+                        <span>5.0 (28 reviews)</span>
+                    </div>
+                    <div class="proof-item">
+                        <i class="fas fa-chart-line"></i>
+                        <span>300% avg. growth</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Tiga Weizor at work">
+                    <div class="tech-badge html">HTML5</div>
+                    <div class="tech-badge css">CSS3</div>
+                    <div class="tech-badge js">JavaScript</div>
+                    <div class="tech-badge react">React</div>
+                    <div class="tech-badge sm">Social Media</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Digital Arsenal</span></h2>
+            <p class="section-subtitle">Comprehensive solutions to elevate your online presence</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>Responsive Websites</li>
+                        <li>Web Applications</li>
+                        <li>E-commerce Solutions</li>
+                        <li>API Integrations</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span>From $999</span>
+                        <a href="#contact">Get Quote</a>
+                    </div>
+                </div>
+                
+                <div class="service-card featured">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Social Media Boosting</h3>
+                    <ul>
+                        <li>Content Strategy</li>
+                        <li>Audience Growth</li>
+                        <li>Engagement Tactics</li>
+                        <li>Paid Campaigns</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span>From $299/mo</span>
+                        <a href="#contact">Boost Now</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>App Development</h3>
+                    <ul>
+                        <li>Mobile Applications</li>
+                        <li>Progressive Web Apps</li>
+                        <li>UI/UX Design</li>
+                        <li>App Store Optimization</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span>From $2,499</span>
+                        <a href="#contact">Let's Build</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Recent <span class="highlight">Projects</span></h2>
+            <p class="section-subtitle">Where code meets creativity and strategy</p>
+            
+            <div class="portfolio-filter">
+                <button class="active" data-filter="all">All</button>
+                <button data-filter="web">Web Dev</button>
+                <button data-filter="app">Apps</button>
+                <button data-filter="sm">Social Media</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt="E-commerce Website">
+                        <div class="portfolio-overlay">
+                            <h3>Boutique E-commerce</h3>
+                            <p>300% increase in conversions</p>
+                            <a href="#" class="btn-portfolio">Case Study →</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-meta">
+                        <span>Web Development</span>
+                        <span>+215% Revenue</span>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="sm">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Social Media Growth">
+                        <div class="portfolio-overlay">
+                            <h3>Fitness Brand</h3>
+                            <p>From 1K to 50K followers</p>
+                            <a href="#" class="btn-portfolio">Case Study →</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-meta">
+                        <span>Social Media</span>
+                        <span>+4,900% Growth</span>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Mobile App">
+                        <div class="portfolio-overlay">
+                            <h3>Health Tracking App</h3>
+                            <p>50,000+ downloads</p>
+                            <a href="#" class="btn-portfolio">Case Study →</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-meta">
+                        <span>App Development</span>
+                        <span>4.9★ Rating</span>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Corporate Website">
+                        <div class="portfolio-overlay">
+                            <h3>Corporate Portal</h3>
+                            <p>Streamlined operations</p>
+                            <a href="#" class="btn-portfolio">Case Study →</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-meta">
+                        <span>Web Application</span>
+                        <span>80% Efficiency Gain</span>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="portfolio-item" data-category="sm">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Instagram Growth">
+                        <div class="portfolio-overlay">
+                            <h3>Fashion Brand IG</h3>
+                            <p>10K → 250K followers</p>
+                            <a href="#" class="btn-portfolio">Case Study →</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-meta">
+                        <span>Instagram Growth</span>
+                        <span>2,400% Increase</span>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="SaaS Platform">
+                        <div class="portfolio-overlay">
+                            <h3>SaaS Platform</h3>
+                            <p>B2B productivity tool</p>
+                            <a href="#" class="btn-portfolio">Case Study →</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-meta">
+                        <span>Web Application</span>
+                        <span>$50K MRR</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-cta">
+                <p>Ready to see what we can build together?</p>
+                <a href="#contact" class="btn-primary">Start Your Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/bigboss.jpg" alt="Tiga Weizor">
+                    <div class="experience-badge">
+                        <span>7+</span>
+                        <small>Years Experience</small>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About <span class="highlight">Tiga Weizor</span></h2>
+                    <p>I'm a full-stack developer and digital growth specialist with a passion for creating digital experiences that not only look stunning but deliver measurable business results.</p>
+                    
+                    <div class="about-skills">
+                        <div class="skill-category">
+                            <h4><i class="fas fa-laptop-code"></i> Development</h4>
+                            <ul>
+                                <li>HTML5/CSS3/JavaScript</li>
+                                <li>React, Node.js, Python</li>
+                                <li>Mobile & Web Apps</li>
+                                <li>Database Architecture</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h4><i class="fas fa-hashtag"></i> Social Media</h4>
+                            <ul>
+                                <li>Content Strategy</li>
+                                <li>Audience Growth</li>
+                                <li>Paid Advertising</li>
+                                <li>Analytics & Optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="about-cta">
+                        <a href="#contact" class="btn-primary">Work With Me</a>
+                        <a href="#" class="btn-secondary">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Proven <span class="highlight">Results</span></h2>
+            <p class="section-subtitle">What clients say about working with me</p>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>Tiga transformed our online presence. Our website traffic increased by 400% and our Instagram following went from 2K to 75K in just 6 months. Unbelievable results!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah J.">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <span>CEO, Fashion Boutique</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>The web application Tiga built streamlined our operations so effectively that we reduced customer service calls by 60%. The social media strategy also brought in 35% more leads.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael T.">
+                        <div>
+                            <h4>Michael Thompson</h4>
+                            <span>Director, Tech Startup</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>We worked with several developers before finding Tiga. His combination of technical skills and marketing knowledge is rare. Our e-commerce sales tripled after his redesign.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Lisa M.">
+                        <div>
+                            <h4>Lisa Martinez</h4>
+                            <span>Owner, Home Decor Store</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="results-stats">
+                <div class="stat-item">
+                    <h3>300%</h3>
+                    <p>Average Social Media Growth</p>
+                </div>
+                <div class="stat-item">
+                    <h3>98%</h3>
+                    <p>Client Satisfaction Rate</p>
+                </div>
+                <div class="stat-item">
+                    <h3>75+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h3>4.9★</h3>
+                    <p>Average Rating</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Let's <span class="highlight">Connect</span></h2>
+                    <p>Ready to take your digital presence to the next level? Reach out to discuss your project.</p>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:tigaweizor1@gmail.com">tigaweizor1@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+1234567890">+256 (780) 128-703</a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <span>Kampala (Available Worldwide)</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://x.com/TigaWeizor"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/tiga-weizor-2a7908268/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/TIGAWEIZOR"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/iamtigaweizor/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://dribbble.com/Weizor"><i class="fab fa-dribbble"></i></a>
+                        <a href="https://tiktok.com/@tigaweizor0" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.youtube.com/@webhack-g1o" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://wa.me/+256780128703" target="_blank"><i class="fab fa-whatsapp"></i></a>  
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="projectForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>I'm interested in...</option>
+                                <option>Web Development</option>
+                                <option>App Development</option>
+                                <option>Social Media Growth</option>
+                                <option>Complete Package</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">TW</div>
+                    <p>Web Development & Digital Growth Solutions</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="links-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">App Development</a></li>
+                            <li><a href="#">Social Media Growth</a></li>
+                            <li><a href="#">Digital Strategy</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="links-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="links-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tiga Weizor. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://x.com/TigaWeizor"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/tiga-weizor-2a7908268/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/TIGAWEIZOR"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/iamtigaweizor/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/+256780128703" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://tiktok.com/@tigaweizor0" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.youtube.com/@webhack-g1o" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
